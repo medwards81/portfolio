@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Comatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marc Edwards &bull; Web Developer</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js" async></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="logo-block">ME</div>
+        </div>
+        <div class="col-md-6 text-right">
+          <h1 class="main-title text-thin head-block">MARC EDWARDS</h1>
+          <h4 class="head-block">WEB DEVELOPER</h4>
+          <h5 class="head-block">mdouglasedwards@gmail.com / <a href="https://github.com/medwards81">github.com/medwards81</a></h5>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/main_pic_mini.jpg" alt="main picture">
+        </div>
+      </div>
+
+      <div class="row foot-title">
+        <div class="col-md-12">
+          <h2 class="text-muted head-block">Featured Work</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/fsnd-p1-movie-trailer.png" alt="screenshot of movie trailer website" data-toggle="modal" data-target="#image1">
+          <a class="link-text" href="https://medwards81.github.io/FSND-P1-Movie-Trailers" target="_blank">
+            <h3 class="footer">Movie Trailer Website</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="https://medwards81.github.io/FSND-P1-Movie-Trailers" target="_blank">https://medwards81.github.io/FSND-P1-Movie-Trailers</a>
+          </p>
+        </div>
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/dw_scalable_s_mini.jpg" alt="screenshot of conference central page" data-toggle="modal" data-target="#image2">
+          <a class="link-text" href="https://dw-scalable.appspot.com" target="_blank">
+            <h3 class="footer">Conference Central</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="https://dw-scalable.appspot.com" target="_blank">https://dw-scalable.appspot.com</a>
+          </p>
+        </div>
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/dw_portfolio_s.jpg" alt="screenshot of portfolio page" data-toggle="modal" data-target="#image3">
+          <a class="link-text" href="http://dw-portfolio.appspot.com" target="_blank">
+            <h3 class="footer">DW Portfolio</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="http://dw-portfolio.appspot.com" target="_blank">http://dw-portfolio.appspot.com</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-separator row">
+        <div class="col-md-12">
+          <hr class="project-sep-hr">
+        </div>
+      </div>
+<!--
+      <div class="row text-center">
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/dw_resume_s.png" alt="screenshot of resume page" data-toggle="modal" data-target="#image4">
+          <a class="link-text" href="http://dw-resume.appspot.com" target="_blank">
+            <h3 class="footer">DW Resume</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="http://dw-resume.appspot.com" target="_blank">http://dw-resume.appspot.com</a>
+          </p>
+        </div>
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/dw_frogger_s.png" alt="screenshot of frogger game page" data-toggle="modal" data-target="#image5">
+          <a class="link-text" href="https://dw-frogger.appspot.com" target="_blank">
+            <h3 class="footer">DW Frogger</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="https://dw-frogger.appspot.com" target="_blank">https://dw-frogger.appspot.com</a>
+          </p>
+        </div>
+        <div class="col-md-4 content-col">
+          <img class="img-responsive img-center" src="images/dw_git_s_mini.jpg" alt="screenshot of GitHub page" data-toggle="modal" data-target="#image6">
+          <a class="link-text" href="https://github.com/DawoonC" target="_blank">
+            <h3 class="footer">GitHub</h3>
+          </a>
+          <p class="text-muted"><a class="link-text" href="https://github.com/DawoonC" target="_blank">https://github.com/DawoonC</a>
+          </p>
+        </div>
+      </div>
+    </div>
+-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Movie Trailer Website</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/fsnd-p1-movie-trailer.png" alt="screenshot of movie trailer website">
+            <hr>
+			Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. Additional movie info pulled in from the <a href="http://www.omdbapi.com" target="_blank">OMDDb</a> rest api. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Conference Central</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dw_scalable_s_mini.jpg" alt="screenshot of conference central page">
+            <hr>This web app was a final project for Udacity course ud859 (Developing Scalable Apps with Java). The project was built on Google App Engine.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">DW Portfolio</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dw_portfolio_s.jpg" alt="screenshot of portfolio page">
+            <hr>This web page was a project for Udacity nanodegree. The project was built on Google App Engine and Bootstrap.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="image4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel4">DW Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dw_resume_s.png" alt="screenshot of resume page">
+            <hr>This web page was a project for Udacity nanodegree. The project was built on Google App Engine.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="image5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel5">DW Frogger</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dw_frogger_s.png" alt="screenshot of frogger game page">
+            <hr>This web page was a project for Udacity nanodegree. The project was built on Google App Engine.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="image6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel6">GitHub</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dw_git_s_mini.jpg" alt="screenshot of GitHub page">
+            <hr>This is my GibHub page.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

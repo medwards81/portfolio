@@ -7,6 +7,12 @@ hr {
   border-width: 4px;
   border-top-color: #BCBBBB;
 }
+img {
+  border-radius: 2px;
+}
+.top-row {
+  cursor: default;
+}
 .text-muted {
   color: #BCBBBB;
 }
@@ -43,6 +49,9 @@ a.link-text {
 h3.footer {
   color: #3c4f6d;
 }
+h3.footer:hover {
+  color: #F8981C;
+}
 .modal-content {
   color: #353535;
   line-height: 170%;
@@ -54,7 +63,34 @@ h3.footer {
 .project-sep-hr {
   border-top-width: 1px;
 }
-
+.contact-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ic {
+  color: #535353;
+  width: 2em;
+}
+.ic:hover {
+  text-decoration: none;
+  color: #AFB42B;
+}
+.ic:focus {
+  text-decoration: none;
+}
+.ic:active {
+  color: #747704;
+}
+.img-center {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.img-center:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.img-modal {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
 a {
     text-decoration: underline;
     color: inherit;
